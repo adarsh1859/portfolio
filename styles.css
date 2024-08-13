@@ -1,0 +1,249 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(45deg, #24ffba, #f87cef);
+    transition: transform 1s;
+}
+
+header:hover {
+    transform: scale(1.4);
+    transition: transform 1s;
+}
+
+/* Navbar Styling */
+
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00d5ff !important;
+}
+
+/* Section Styling */
+section {
+    padding: 80px 0;
+}
+
+
+
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+section h2::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #b157ff;
+    display: block;
+    margin: 20px auto;
+    border-radius: 2px;
+}
+
+/* About Section Styling */
+#about .bg-light text-dark py-5 {
+    background-color: #000;
+}
+
+#about .container {
+    padding: 0px 0;
+    background-color: #e3e0e0;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: transform 1s;
+}
+
+.lead {
+    transition: transform 1s;
+
+}
+
+.lead:hover {
+    transform: scale(1.08);
+    transition: transform 1s;
+}
+
+
+#about .lead {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+    text-align: justify;
+
+    padding-right: 5%;
+    padding-left: 5%;
+    transition: transform 1s;
+
+
+}
+
+.col-md-6 h2 {
+    font-size: 2rem;
+    text-align: center;
+    /* Centers the heading text */
+    margin-bottom: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    #about .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about img {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Projects Section */
+#projects .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+#projects .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Custom styling for project details */
+#project1-details,
+#project2-details {
+    margin-top: 20px;
+    /* Adjust top margin for spacing */
+    padding: 20px;
+    /* Adjust padding for internal spacing */
+    background-color: #f9f9f9;
+    /* Optional: Change background color */
+}
+
+#project1-details img,
+#project2-details img {
+    margin-bottom: 15px;
+    /* Adjust bottom margin for images */
+}
+
+/* Ensure that content inside the collapse sections is properly spaced */
+#project1-details p,
+#project2-details p {
+    margin-bottom: 15px;
+    /* Adjust bottom margin for paragraphs */
+}
+
+
+
+/* Contact Section */
+#contact a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#contact a:hover {
+    color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(45deg, #75e78c, #ea59dc);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #about .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about img {
+        margin-bottom: 20px;
+    }
+
+    #skills ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #skills ul li {
+        margin: 5px;
+    }
+}
+
+
+/* Education Section Styling */
+#education {
+    padding: 80px 0;
+}
+
+#education h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#education p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Experience Section Styling */
+#experience {
+    padding: 80px 0;
+}
+
+#experience h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#experience p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Resume Section Styling */
+#resume {
+    padding: 80px 0;
+}
+
+#resume p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#resume .btn {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
