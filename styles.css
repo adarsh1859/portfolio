@@ -247,3 +247,76 @@ footer {
     padding: 10px 30px;
     border-radius: 5px;
 }
+
+
+
+/* skills */
+
+.proficiency {
+    padding: 30px 0;
+    background-color: #0b0b3b;
+    color: white;
+    text-align: center;
+}
+
+.proficiency h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-items: center;
+
+}
+
+.proficiency-card {
+    background-color: #eaeef1;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 180px;
+    /* Adjust box width */
+    height: 60px;
+    /* Adjust box height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+
+}
+
+.proficiency-card img {
+    width: 30px;
+    /* Adjust image size */
+    height: auto;
+    margin-right: 10px;
+    /* Space between image and text */
+}
+
+.proficiency-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.proficiency-card:hover {
+    transform: scale(1.1);
+}
+
+.divider {
+    border-top: 2px solid #eaeef1;
+    /* Line color and thickness */
+    margin: 30px 0;
+    /* Space above and below the line */
+    width: 80%;
+    /* Adjust width as needed */
+    max-width: 1200px;
+    /* Optional: set a maximum width */
+    margin-left: auto;
+    /* Center align */
+    margin-right: auto;
+    /* Center align */
+}
